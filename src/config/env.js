@@ -8,7 +8,7 @@ const {
     DB_DEV,
     DB_TEST,
     POSTGRES_USER,
-    POSTFRES_PASSWORD,
+    POSTGRES_PASSWORD,
 } = process.env;
 
 module.exports = {
@@ -18,5 +18,5 @@ module.exports = {
     db_dev: DB_DEV,
     db_test: DB_TEST,
     user: POSTGRES_USER,
-    password: POSTFRES_PASSWORD
+    password: POSTGRES_PASSWORD
 };

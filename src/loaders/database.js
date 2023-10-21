@@ -1,4 +1,4 @@
-const { Pool, Pool } = require("pg");
+const { Pool } = require("pg");
 const { user, password, host, dbPort, db_dev } = require("../config/env");
 
 const pool = new Pool({
