@@ -1,5 +1,7 @@
 /* Replace with your SQL commands */
-create table urls (
-    short_url VARCHAR(20) NOT NULL,
-    original_url TEXT NOT NULL
-)
+CREATE TABLE urls (
+    short_url VARCHAR(20) PRIMARY KEY,
+    original_url  TEXT NOT NULL
+);
+
+CREATE INDEX idx_short_url ON urls (short_url);
